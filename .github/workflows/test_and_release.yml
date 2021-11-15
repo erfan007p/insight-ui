@@ -36,7 +36,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Check NPM package lock version is updated
-        uses: dashevo/gh-action-check-package-lock@v1
+        uses: gobytecoin/gh-action-check-package-lock@v1
 
       - name: Install NPM dependencies
         run: npm ci
@@ -132,7 +132,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v3
         with:
-          images: dashpay/insight
+          images: gobytecoin/insight
           tags: |
             type=match,pattern=v(\d+),group=1
             type=match,pattern=v(\d+.\d+),group=1
@@ -155,7 +155,7 @@ jobs:
           cache-to: type=gha,mode=max
           platforms: linux/amd64,linux/arm64
           build-args: |
-            VERSION=${{ github.event.release.tag_name }}  
+            VERSION=${{ github.event.release.tag_name }}
             MAJOR_VERSION=${{ steps.tag.outputs.result }}
 
       - name: Output Docker image digest

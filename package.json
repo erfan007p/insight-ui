@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
+  "name": "@gobytecoin/insight-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the GoByte network and build your own services with it.",
   "version": "3.1.2",
-  "repository": "git://github.com/dashevo/insight-ui.git",
+  "repository": "git://github.com/gobytecoin/insight-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,20 +30,20 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-ui/issues"
+    "url": "https://github.com/gobytecoin/insight-ui/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-ui",
+  "homepage": "https://github.com/gobytecoin/insight-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
+    "gobyte",
+    "bitcore-gobyte",
     "front-end",
-    "dashcore"
+    "gobytecore"
   ],
-  "dashcoreNode": "dashcore-node",
+  "gobytecoreNode": "gobytecore-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",
@@ -54,7 +54,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@dashevo/dp-services-ctl": "^0.14.0",
     "bower": "~1.8.8",
     "chai": "^4.2.0",
     "eslint": "^5.6.1",

@@ -2,17 +2,17 @@
   "network": "livenet",
   "port": 3001,
   "services": [
-    "dashd",
-    "@dashevo/insight-api",
-    "@dashevo/insight-ui",
+    "gobyted",
+    "@gobytecoin/insight-api",
+    "@gobytecoin/insight-ui",
     "web"
   ],
   "servicesConfig": {
-    "dashd": {
+    "gobyted": {
       "connect": [{
         "rpchost": "127.0.0.1",
-        "rpcport": 9998,
-        "rpcuser": "dashrpc",
+        "rpcport": 12454,
+        "rpcuser": "gobyterpc",
         "rpcpassword": "password",
         "zmqpubrawtx": "tcp://127.0.0.1:29998",
         "zmqpubhashblock": "tcp://127.0.0.1:29998"

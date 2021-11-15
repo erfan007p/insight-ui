@@ -412,8 +412,8 @@ margin-left: 0;
   color: #fffffe;
 }
 
-#footer a.insight small { 
-  font-size: 11px; 
+#footer a.insight small {
+  font-size: 11px;
   margin-right: 2px;
 }
 
@@ -866,7 +866,7 @@ a.v_highlight_more {
   min-width: 100%;
 }
 
-/* Dash rebrand, 2018-05-28 */
+/* GoByte rebrand, 2021-11-4 */
 a {
   color: #008de4;
 }
